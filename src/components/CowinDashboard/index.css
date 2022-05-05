@@ -1,0 +1,64 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #161625;
+  align-items: center;
+}
+.nav-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.logo-img {
+  width: 25px;
+  height: 25px;
+  margin-left: 40px;
+  margin-right: 10px;
+}
+.logo-text {
+  color: #2cc6c6;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: bold;
+}
+.responsive-container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+.cowin-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.failure-view {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.failure-image {
+  width: 50%;
+  margin: 10px;
+}
+
+.failure-text {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 25px;
+  line-height: 1.4;
+  text-align: center;
+}
